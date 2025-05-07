@@ -14,3 +14,27 @@ Input will contain four integers - a,b,c,d , one on each line.
 
 Print the greatest of the four integers.
 Note: I/O will be automatically handled.
+## PROGRAM
+```
+#include<stdio.h>
+int compare(int a[4])
+{
+    int max=a[0];
+    for(int i=0;i<4;i++)
+    {
+        if(a[i]>max)
+        max=a[i];
+    }
+    return max;
+}
+int main()
+{
+    int a[4];
+    for(int i=0;i<4;i++)
+    scanf("%d",&a[i]);
+    int d= compare(a);
+    printf("%d",d);
+}
+```
+## OUTPUT
+![image](https://github.com/user-attachments/assets/aba6d6ba-c7c3-4607-9f04-a740cafd9845)
