@@ -17,7 +17,7 @@ To write a C program to remove duplicates in an array.
 9. Print the modified array without duplicates.  
 10. **End**  
 
-This step-by-step method ensures that duplicates are effectively removed while maintaining the order of unique elements. Let me know if you need optimizations! 🚀
+
  
 
 ## Program:
